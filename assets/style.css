@@ -100,6 +100,12 @@ main {
     padding-top: 20px;
 }
 
+.reparticao-do-main {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
 .video-player {
     margin-left: 44px;
 }
@@ -107,6 +113,25 @@ main {
 
 .container-informacoes-video-centro {
     display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    
+    
+}
+
+.name-dio {
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.seguidores-numero {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 h1, h2, p {
@@ -122,10 +147,89 @@ h1, h2, p {
     font-size: 20px;
     line-height: 23.44px;
     color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.mini-container-seguidores {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.inscrevasse {
+    border-radius: 2px;
+    margin-right: 40px;
+}
+
+
+.like {
+    margin-right: 40px;
+}
+
+.deslike {
+    margin-right: 40px;
+}
+
+.share {
+    margin-right: 40px;
 }
 
 
 
+.contaner-total-visualizacoes {
+    margin-left: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-top: 15px;
+}
+
+.container-desc-video {
+    margin-left: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    width: 510px;
+    margin-top: 15px;
+    color: #515151;
+}
 
 
+/*COMEÇO DO ASIDE*/
 
+.videos-laterais div {
+    margin-bottom: 20px;
+    display: flex;
+    height: 90px;
+}
+
+.videos-laterais div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.videos-laterais h2 {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 16.41px;
+    font-size: 14px;
+}
+
+.videos-laterais p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #515151;
+}
